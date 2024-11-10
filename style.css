@@ -36,13 +36,15 @@ main {
   padding: 20px;
 }
 
-.featured-vault {
-  margin-bottom: 40px;
+.featured-vault,
+.popular-albums {
+  background-color: #663399; /* Purple background */
+  color: white;
+  padding: 20px;
 }
 
-.featured-vault h2 {
-  font-size: 24px;
-  margin-bottom: 15px;
+.featured-vault h2,
+.popular-albums h2 {
   color: white;
 }
 
@@ -65,12 +67,6 @@ main {
   margin: 0;
 }
 
-.popular-albums h2 {
-  font-size: 24px;
-  margin-bottom: 15px;
-  color: white;
-}
-
 .album-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -83,3 +79,51 @@ main {
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
+  border: 2px solid #ccc;
+}
+
+.album img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.album p {
+  font-size: 16px;
+  color: #663399; /* Purple text color */
+}
+
+footer {
+  background-color: #663399; /* Purple footer */
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+.album:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+
+.album:nth-child(3n) {
+  margin-bottom: 40px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header h1 {
+  font-size: 36px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+  font-weight: bold;
+  color: white;
+}
