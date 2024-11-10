@@ -1,45 +1,47 @@
 * {
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  font-family:Arial,sans-serif;
+  font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   color: #333;
 }
 
 header {
-  background-color:#663399;
-  color:white;
-  padding:50px;
-  text-align:center;
+  background-color: #663399; /* Purple header */
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 
 header h1 {
-  margin-bottom:16px;
+  margin-bottom: 10px;
 }
 
 nav a {
-  color:white;
-  margin:15px;
-  font-size:18px;
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
 }
 
 nav a:hover {
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 main {
-  padding: 40px;
+ color:#ffA500
+  padding: 10px;
 }
 
 .featured-vault,
 .popular-albums {
-  background-color: #663399;
-  color: black;
-  padding: 20px;
+  background-color: #663399; /* Purple background */
+  
+  padding: 10px;
 }
 
 .featured-vault h2,
@@ -66,33 +68,40 @@ main {
   margin: 0;
 }
 
-.popular-albums h2 {
-  font-size: 24px;
-  margin-bottom: 16px;
-  color: white;
-}
-
 .album-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-gap: 30px 100px; /* Increased horizontal gap */
+  grid-gap: 30px 10px;
 }
 
 .album {
   background-color: #fff;
   padding: 15px;
-  box-shadow: 10px 6px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
+  border: 2px solid #ccc;
 }
 
 .album img {
-  width: 100%;}
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
 
 .album p {
   font-size: 16px;
-  color: #663399; 
+  color: #663399; /* Purple text color */
 }
 
+footer {
+  background-color: #663399; /* Purple footer */
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
 
 footer p {
   font-size: 14px;
