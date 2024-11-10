@@ -1,4 +1,4 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-color: #663399; /* Purple header */
+  background-color: #333;
   color: white;
   padding: 20px;
   text-align: center;
@@ -19,7 +19,6 @@ header {
 
 header h1 {
   margin-bottom: 10px;
-  color: #fff; /* Ensure white text on purple background */
 }
 
 nav a {
@@ -44,7 +43,6 @@ main {
 .featured-vault h2 {
   font-size: 24px;
   margin-bottom: 15px;
-  color: #663399; /* Purple heading color */
 }
 
 .track-list {
@@ -55,7 +53,7 @@ main {
 }
 
 .track {
-  background-color: #f0f0f0; /* Lighter background for tracks */
+  background-color: #fff;
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -69,7 +67,6 @@ main {
 .popular-albums h2 {
   font-size: 24px;
   margin-bottom: 15px;
-  color: #663399; /* Purple heading color */
 }
 
 .album-grid {
@@ -96,11 +93,11 @@ main {
 
 .album p {
   font-size: 16px;
-  color: #663399; /* Purple text color */
+  color: #666;
 }
 
 footer {
-  background-color: #663399; /* Purple footer */
+  background-color: #333;
   color: white;
   text-align: center;
   padding: 15px;
@@ -120,7 +117,7 @@ footer p {
 }
 
 body {
-  font-family: Arial, sans-serif; /* More standard font */
+  font-family: "Comic Sans MS", cursive;
 }
 
 header h1 {
@@ -130,5 +127,5 @@ header h1 {
 
 nav a {
   font-weight: bold;
-  color: white;
+  color: #f0f0f0;
 }
