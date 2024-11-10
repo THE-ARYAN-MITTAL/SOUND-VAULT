@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-color: #663399; /* Purple header */
+  background-color: #663399; 
   color: white;
   padding: 20px;
   text-align: center;
@@ -39,7 +39,7 @@ main {
 
 .featured-vault,
 .popular-albums {
-  background-color: #663399; /* Purple background */
+  background-color: #663399; 
   
   padding: 10px;
 }
@@ -86,17 +86,17 @@ main {
 .album img {
   width: 100%;
   height: auto;
-  border-radius: 5px;
+  border-radius: 15px;
   margin-bottom: 10px;
 }
 
 .album p {
   font-size: 16px;
-  color: #663399; /* Purple text color */
+  color: #663399;
 }
 
 footer {
-  background-color: #663399; /* Purple footer */
+  background-color: #663399;
   color: white;
   text-align: center;
   padding: 15px;
