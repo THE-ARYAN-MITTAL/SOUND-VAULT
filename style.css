@@ -38,6 +38,7 @@ main {
 .featured-vault,
 .popular-albums {
   background-color: #663399;
+  color: black;
   padding: 20px;
 }
 
